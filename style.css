@@ -1,0 +1,367 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all .5s;
+}
+
+:root {
+    --red:#eb4d4b;
+}
+
+body {
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-size: cover;
+}
+
+header nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 8%;
+}
+
+header nav .logo {
+    font-size: 1.5rem;
+    color: var(--red);
+    font-weight: 900;
+    cursor: pointer;
+}
+
+nav ul li {
+    position: relative;
+    float: left;
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    display: block;
+    padding: 15px;
+    color: #000;
+}
+
+nav ul li a:hover {
+    background: #000;
+    color: #fff;
+}
+
+nav ul li ul {
+    position: absolute;
+    left: 0;
+    width: 180px;
+    background: #fff;
+    display: none;
+}
+
+nav ul li ul li {
+    width: 100%;
+    border: 1px solid rgba(0,0,0,.1);
+}
+
+nav ul li:hover > ul {
+    display: initial;
+}
+
+h1 {
+    position: relative;
+    top: 200px;
+    left: 600px;
+}
+
+p {
+    position: absolute;
+    top: 400px;
+    left: 400px;
+    font-size: 25px;
+}
+
+nav ul li a[href="https://www.instagram.com/_azamattoviich_/?hl=ru"] {
+    margin-left: 70px;
+}
+
+.map {
+    position: relative;
+    height: 40%;
+    width: 20%;
+    top: 270px;
+    left: 1200px;
+}
+.box{
+    position: relative;
+    top: 552px;
+}
+.ii{
+    width: 50px;
+    position: relative;
+    left: 80px;
+}
+.text-block-1{
+    position: absolute;
+    left: 797px;
+    border: 2px solid #000000;
+    background-color: gray;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 52px 53px;
+    border-radius: 8px;
+    transition: 1s;
+}
+.text-block-1:hover{
+    transform: scale(1.1);
+}
+.pp{
+    position: relative;
+    color: white;
+    top: 34px;
+    left: 0px;
+    font-size: 20px;
+}
+.pp-2{
+    position: relative;
+    color: white;
+    top: 34px;
+    left: 0px;
+    font-size: 20px;
+}
+.pp-3{
+    position: relative;
+    color: white;
+    top: 34px;
+    left: 0px;
+    font-size: 20px;
+}
+.text-block-2{
+    position: absolute;
+    left: 441px;
+    border: 2px solid #000000;
+    background-color: gray;
+    color: white;
+    text-decoration: none;
+    padding: 52px 53px;
+    border-radius: 8px;
+    transition: 1s;
+}
+.text-block-2:hover{
+    transform: scale(1.1);
+}
+.text-block-3{
+    position: absolute;
+    left: 1162px;
+    top: -552px;
+    border: 2px solid #000000;
+    background-color: gray;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 52px 3px;
+    border-radius: 8px;
+    transition: 1s;
+}
+.text-block-3:hover{
+    transform: scale(1.1);
+}
+
+.lll {
+    position: relative;
+    top: -642px;
+    left: 841px;
+}
+.bufer{
+    position: relative;
+    top: 287px;
+    background-color: black;
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.info-section {
+    background-color: gray;
+    width: 100%;
+    min-height: 50vh;
+    text-align: center;
+}
+
+.info-section h4 {
+    font-size: 3.5rem;
+    color: #fff;
+    padding: 2rem 0;
+}
+
+.info-section .info-items {
+    position: relative;
+    padding: 2% 15%;
+    display: flex;
+    justify-content: 
+    space-between;
+    flex-wrap: wrap;
+}
+
+.info-section .info-items .item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info-section .info-items .item .img-box {
+    width: 5rem;
+    height: 5rem;
+    background-color: coral;
+    color: #fff;
+    border-radius: 60%;
+    line-height: 5rem;
+    text-align: center;
+    cursor: pointer;
+    font-size: 2rem;
+    transition: 0.5s;
+}
+
+.info-section .info-items .item .img-box:hover {
+        background-color: aqua;
+}
+
+.info-section .info-items .item p {
+    margin-top: 3rem;
+    text-align: center;
+    color: #fff;
+    font-size: 2.0rem;
+}
+
+.baba {
+    position: relative;
+    top: -40px;
+    left: 200px;
+    font-size: medium;
+}
+
+.papa {
+    position: relative;
+    top: -40px;
+    left: 5px;
+    font-size: medium;
+}
+
+.vava {
+    position: relative;
+    top: -40px;
+    left: -200px;
+    font-size: small;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #000;
+    background-color: #f8f8f8;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .form {
+    position: relative;
+    max-width: 320px;
+    padding: 15px;
+    margin: 20px auto;
+    left: 550px;
+    background-color: #fff;
+  }
+  
+  .input {
+    display: block;
+    width: 100%;
+    padding: 8px 10px;
+    margin-bottom: 10px;
+    
+    border: 1px solid #ccc;
+    
+    font-family: inherit;
+    font-size: 16px;
+  }
+  
+  .btn {
+    display: block;
+    width: 100%;
+    padding: 8px 10px;
+    
+    border: 0;
+    background-color: #1cbc11;
+    cursor: pointer;
+    
+    font-family: inherit;
+    font-size: 16px;
+    color: #fff;
+  }
+  
+  .btn:hover {
+    background-color: #14a20a;
+  }
+  .v{
+    margin-top: 50em;
+  }
+
+  .okzh {
+    position: relative;
+    width: 317px;
+    height: 255px;
+    left: -75px;
+    top: -1175px;
+    transition-property: all;
+    transition: 2s;
+  }
+  .okzh:hover:hover{
+    transform: scale(1.5,1.5);
+  }
+
+  .alma {
+    position: relative;
+    width: 317px;
+    height: 255px;
+    left: -22px;
+    top: -1175px;
+    transition-property: all;
+    transition: 2s;
+  }
+  .alma:hover:hover{
+    transform: scale(1.5,1.5);
+  }
+
+  .ast {
+    position: relative;
+    width: 317px;
+    height: 255px;
+    left: 25px;
+    top: -1175px;
+    transition-property: all;
+    transition: 2s;
+  }
+  .ast:hover:hover{
+    transform: scale(1.5,1.5);
+  }
+
+  .koksh {
+    position: relative;
+    width: 317px;
+    height: 255px;
+    left: -198px;
+    top: -1509px;
+    transition-property: all;
+    transition: 2s;  
+}
+.koksh:hover:hover{
+    transform: scale(1.5,1.5);
+  }
+  .shym{
+    position: relative;width: 1500px;
+    height: 500px;
+    top: -90em;
+    left: -5em;
+  }
